@@ -1,0 +1,19 @@
+#login {
+    -fx-background-color:
+        linear-gradient( #6D4EE9, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}#login:hover {
+     -fx-background-color:
+         linear-gradient(from 0% 93% to 0% 100%, #b8ef36 0%, #903b12 100%),
+         #9d4024,
+         #d86e3a,
+         radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+ }
+ #login:pressed {
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+ }
